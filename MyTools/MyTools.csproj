@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="TencentCloud">
+      <HintPath>..\..\tencentcloud-sdk-dotnet\tencentcloud-sdk-dotnet-3.0.0\TencentCloud\bin\Debug\net45\TencentCloud.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
